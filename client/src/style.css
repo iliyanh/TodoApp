@@ -28,6 +28,9 @@ body {
   padding-bottom: 3em;
   margin: auto;
 }
+.line_through {
+  text-decoration: line-through;
+}
 .input-container {
   display: flex;
   justify-content: center;
@@ -52,6 +55,7 @@ tr {
 }
 .task-description {
   max-width: 275px;
+  min-width: 125px;
 }
 
 /* Buttons */
@@ -116,14 +120,21 @@ tr {
   padding: 0 16px;
   border-radius: 0.25em;
 }
-
-@media (max-width: 431px) {
+@media (max-width: 759px) {
+  body {
+    background: #7e40f6;
+  }
+  .main-container {
+    width: 95%;
+  }
+}
+@media (max-width: 505px) {
   body {
     background: #7e40f6;
     font-size: 15px;
   }
   .main-container {
-    width: 375px;
+    width: 95%;
   }
   h4 {
     font-size: large;
@@ -135,5 +146,14 @@ tr {
   }
   .task-description {
     max-width: 143px;
+  }
+}
+@media (max-width: 395px) {
+  .btn {
+    font-size: 0.75rem;
+    line-height: 1.25;
+  }
+  #task-input {
+    height: 30px;
   }
 }

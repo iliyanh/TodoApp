@@ -38,7 +38,13 @@ export default function Todo(props) {
   return (
     <tr className="task-table-row">
       <th>{todos.indexOf(todo) + 1}</th>
-      <td className="task-description">{todo.todo}</td>
+      <td
+        className={
+          todo.status ? "task-description line_through" : "task-description"
+        }
+      >
+        {todo.todo}
+      </td>
       <td>{todo.status ? "Complete" : "In Progress"}</td>
       <td className="btn-container">
         <button className="btn btn-delete" onClick={() => deleteTodo(todo._id)}>
