@@ -74,6 +74,4 @@ function App() {
 
 export default App;
 
-//iDHnKOJ4nlf3R3TU
-// mongodb+srv://ihadzhiev1:iDHnKOJ4nlf3R3TU@cluster0.o6iepbq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-// mongodb+srv://ihadzhiev1:<password>@cluster0.o6iepbq.mongodb.net/
+
