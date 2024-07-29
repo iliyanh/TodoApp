@@ -23,5 +23,3 @@ This is a full-stack Todo application built using JavaScript, React for the fron
 Feel free to explore and contribute!
 
 ---
-
-You can copy and paste this directly into your GitHub repository's README.md file.
